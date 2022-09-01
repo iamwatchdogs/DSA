@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class Binary_Search {
 
-    // basic binary search algorithm which still has it's limitations
+    // basic binary search algorithm which still has its limitations i.e.,
+    // applicable to only array which is sorted either in increasing or
+    // decreasing order. ( below code is only for increasing ordered array )
     public static int naive_binary_search(int[] arr, int target) {
         int start = 0;
         int end = arr.length-1;
@@ -34,7 +36,7 @@ public class Binary_Search {
         return -1;
     }
 
-    // Oder Agnostic binary search is improved binary search which is used when
+    // Order Agnostic binary search is improved binary search which is used when
     // we know the given array is sorted, but we don't know whether it's in
     // increasing order or decreasing order
     public static int order_Agnostic_Binary_Search(int[] arr, int target) {
@@ -91,3 +93,17 @@ public class Binary_Search {
     }
 
 }
+
+//  Output:-
+//  ------
+//        Array1: [-8, -1, 0, 9, 15, 23, 45, 68, 79, 99, 111]
+//        Array2: [121, 97, 73, 68, 54, 20, 16, 4, 0, -3, -12]
+//        The Basic Naive method:
+//        target: 68, Index: 7
+//
+//        The Basic Naive ( Recursive ) method:
+//        target: 68, Index: 7
+//
+//        Order Agnostic method:
+//        target: 68, Index: 7
+//        target: 68, Index: 3

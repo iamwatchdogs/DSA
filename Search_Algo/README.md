@@ -6,15 +6,19 @@
 
 - The space complexity remains constant as we are **NOT** allocating additional memory to perform the computation using this algorithm.
 
+- [Click here to see the Java Implementation of Linear search](https://github.com/iamwatchdogs/DSA/blob/main/Search_Algo/Linear_Search.java)
+
+- [Reference Link](https://www.geeksforgeeks.org/linear-search/)
+
 - Time Complexity:
 
-  - best case: O(1)
+  - Best case: O(1)
   
     > Constant Time complexity.
     
     > Occurrence: When the first element in the data set is the target element.
     
-  - worst case: O(n)
+  - Worst case: O(n)
   
     > Linear Time complexity.
 
@@ -26,8 +30,6 @@
   
     > Linear Space complexity.
 
-- [Click here to see the Implementation of Linear search](https://github.com/iamwatchdogs/DSA/blob/main/Search_Algo/Linear_Search.java)
-- [Reference Link](https://www.geeksforgeeks.org/linear-search/)
 
 # Binary Search
 
@@ -51,13 +53,13 @@
 
 - Time Complexity:
 
-  - best case: O(1)
+  - Best case: O(1)
   
     > Constant Time complexity.
 
     > Occurrence: When the middle element in the data set is the target element.
     
-  - worst case: O(log n)
+  - Worst case: O(log n)
   
     > Linear Time complexity.
 

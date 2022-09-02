@@ -5,14 +5,14 @@ Sorting algorithm plays a key role in sorting out the given data set in an order
 - Concepts of Array Data structure
 - Time Complexity
 - Space Complexity
-- [Stable vs Unstable algorithm](#stable-vs-unstable-algorithm)
+- [Stable vs Unstable algorithm](#stable-vs-unstable-algorithm "Learn about stable & unstable algorithms")
 
 Here we are going to discuss the following sorting algorithms:
-- [Bubble Sort](#bubble-sort-algorithm)
-- [Selection Sort](#selection-sort-algorithm)
+- [Bubble Sort](#bubble-sort-algorithm "Learn about bubble sort")
+- [Selection Sort](#selection-sort-algorithm "Learn about selection sort")
 <!--
-- [Insertion Sort](#insertion-sort-algorithm)
-- [Cyclic Sort](#cyclic-sort-algorithm)
+- [Insertion Sort](#insertion-sort-algorithm "Learn about insertion sort")
+- [Cyclic Sort](#cyclic-sort-algorithm "Learn about cyclic sort")
 -->
 
 ## Note:
@@ -35,20 +35,20 @@ Here we are going to discuss the following sorting algorithms:
 - `Unstable algorithm is quite opposite` to the stable algorithm.
 - So, if the first occurrence of the duplicate data item doesn't stay the first occurrence of the duplicate data item then it's said to be Unstable Algorithm.
 
-![Example for Stable and Unstable algorithm](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_1.png)
+![Example for Stable and Unstable algorithm](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_1.png "View Example for Stable and Unstable algorithm")
 
 ###  Why do we need determine whether the algorithm is stable or not ?
 
 - Consider a situation where you have set of data where the *Name* column is mapped with *Age* Column.
 - Say the user wanted to `sort` the data set `w.r.t 'Age'` first, just as shown below.
 
-![Example data set sorted by Age](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_2.png)
+![Example data set sorted by Age](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_2.png "View Example data set sorted by Age")
 
 - `After sorting` the data set w.r.t Age, say the `user wanted to sort` the same data set `w.r.t 'Name'`.
 - Then, if we have implemented a `stable algorithm`, the data `displayed will be in sorted order` both in terms of 'Age' and 'Name'.
 - But, it's not same with the `unstable algorithm`, since the order of 'Age' `will be disordered` after sorting 'Name' column ( Just as shown in below figure ).
 
-![Above example after data set sorted by Name](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_3.png)
+![Above example after data set sorted by Name](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_3.png "View Above example after being sorted by Name")
 
 - This is why need to determine the algorithm  as stable or unstable to make better use of it w.r.t the situation demands.
 
@@ -60,13 +60,13 @@ Here we are going to discuss the following sorting algorithms:
 - `At the end of each 'i'-th iteration`/pass of the outer loop, the `largest element` of first 'n-i' number of elements in data set `will be sorted`.
 - Since, `for every pass we are sorting one element`. `It would take 'n'-passes` in total `to sort all the 'n' elements` of the data set.
 - `Thus, the time complexity` of this algorithm becomes `O(n)`. And the `Space complexity will remain constant` since we are not allocating addition memory.
-- This is a `Stable Algorithm`.
+- This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Bubble Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Bubble_Sort.png)
+![Bubble Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Bubble_Sort.png "View Bubble Sort Example")
 
-- [Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/)
-- [Click here for watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194)
-- [Click here to see the Java Implementation of Bubble Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Bubble_Sort.java)
+- [Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/ "Look out for more about Bubble Sort in GFG")
+- [Click here for watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194 "Look out for more detailed explanation by kunal")
+- [Click here to see the Java Implementation of Bubble Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Bubble_Sort.java "Check out the Java implementation of bubble sort")
 
 #### Time Complexity:
 
@@ -94,21 +94,21 @@ Here we are going to discuss the following sorting algorithms:
 
 ## Selection Sort Algorithm
 
-- Selection sort is another **basic sorting algorithm** apart from [Bubble Sort](#bubble-sort-algorithm).
-- Selection sort is also `implemented using a nested loop`, but it's different from implementation of [Bubble Sort](#bubble-sort-algorithm).
+- Selection sort is another **basic sorting algorithm** apart from [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
+- Selection sort is also `implemented using a nested loop`, but it's different from implementation of [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
 - We `start` this algorithm `by choosing an element` in the given data set, In my case, I have chosen the first element to start with.
 - Now, In the inner loop, we will `compare the selected element with the whole data set` towards the right side.
 - Since this algorithm is for sorting in increasing order *( it can be for decreasing order too )*, we `swap the selected element every single time we find even smaller element` while iterating throughout data set **using inner loop**.
 - `For each i-th iteration, One element will get sorted` toward the left-hand side i.e, the **sorted side** and the element which are going to get sorted first are the smaller elements.
-- `The inner loop will compare nearly 'n' elements for 'n' no. of times to sort all 'n' elements`, Thus the Time complexity of this algorithm is also same as '[Bubble Sort](#bubble-sort-algorithm)' i.e., O(n<sup>2</sup>).
+- `The inner loop will compare nearly 'n' elements for 'n' no. of times to sort all 'n' elements`, Thus the Time complexity of this algorithm is also same as '[Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort")' i.e., O(n<sup>2</sup>).
 - The `Space complexity` of this algorithm `remains constant` as we are not allocating additional memory for implementing this algorithm.
-- This **Not** a Stable algorithm i.e., `it's an Unstable algorithm`.
+- This **Not** a [Stable algorithm](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms") i.e., [`it's an Unstable algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Selection Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Selection_Sort.png)
+![Selection Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Selection_Sort.png "View Selection Sort Example")
 
-- [Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/)
-- [Click here for watching detailed implementation](https://youtu.be/BruMUw6mV1c?t=298)
-- [Click here to see the Java Implementation of Selection Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java)
+- [Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/ "Look out for more about Selection Sort in GFG")
+- [Click here to watch detailed implementation](https://youtu.be/BruMUw6mV1c?t=298 "Look out for more detailed explanation by NPTEL Course: DSA using Python")
+- [Click here to see the Java Implementation of Selection Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Selection sort")
 #### Time Complexity:
 
 - **Best/Worst case:** O(n<sup>2</sup>)

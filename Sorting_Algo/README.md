@@ -15,6 +15,14 @@ Here we are going to discuss the following sorting algorithms:
 - [Cyclic Sort](#cyclic-sort-algorithm)
 -->
 
+## Note:
+
+- While reading the documentation, `take a note of highlighting markings`.
+- `Read` the highlighting `markings of` each `individual point continuously` **&** `repeat the same for another individual point` for **better Understanding**.
+- `Make use` of explanation `videos links` which are **time stamped** at a particular point `for saving time`.
+- `Use the documentation links` for even **in depth** understanding.
+- You can also `use the implementation of algorithm in programming language` *(which also documented with explanation of the algorithm)* for even **better understanding**.
+
 ## Stable vs Unstable Algorithm
 
 - Any sorting algorithms can be determined either as a Stable algorithms or as an Unstable algorithms

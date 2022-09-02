@@ -9,8 +9,8 @@ Sorting algorithm plays a key role in sorting out the given data set in an order
 
 Here we are going to discuss the following sorting algorithms:
 - [Bubble Sort](#bubble-sort-algorithm)
-<!--
 - [Selection Sort](#selection-sort-algorithm)
+<!--
 - [Insertion Sort](#insertion-sort-algorithm)
 - [Cyclic Sort](#cyclic-sort-algorithm)
 -->
@@ -46,35 +46,40 @@ Here we are going to discuss the following sorting algorithms:
 
 ## Bubble Sort Algorithm
 
-- Bubble Sort is one of the basic sorting algorithms which is taught as for beginner.
-- Bubble sort is implemented by sorting the largest element ( if we're sorting in increasing order ) in the data set for each of its pass / iteration.
-- The bubble sort is implemented by a single nested loop, where the inner loop sorts the largest element to the right-most side for each pass / 'i'-th iteration of the outer loop.
-- At the end of each pass / 'i'-th iteration of the outer loop, the largest element of first 'n-i' number of elements in data set will be sorted.
-- Since, for **every pass** we are **sorting one element**. It would take 'n'-passes in total to sort all the 'n' elements of the data set.
-- Thus, the time complexity of this algorithm becomes O(n). And the Space complexity will remain constant since we are not allocating addition memory.
-- This is a Stable Algorithm.
+- Bubble Sort is one of the **basic sorting algorithms** which is taught as for beginner.
+- Bubble sort is `implemented by sorting the largest element` ( if we're sorting in increasing order ) in the data set `for each iteration`/pass.
+- The bubble sort is `implemented by a single nested loop`, where the `inner loop sorts the largest element` to the right-most side `for each 'i'-th iteration/pass of the outer loop`.
+- `At the end of each 'i'-th iteration`/pass of the outer loop, the `largest element` of first 'n-i' number of elements in data set `will be sorted`.
+- Since, `for every pass we are sorting one element`. `It would take 'n'-passes` in total `to sort all the 'n' elements` of the data set.
+- `Thus, the time complexity` of this algorithm becomes `O(n)`. And the `Space complexity will remain constant` since we are not allocating addition memory.
+- This is a `Stable Algorithm`.
 
 ![Bubble Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Bubble_Sort.png)
 
 - [Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/)
 - [Click here for watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194)
 - [Click here to see the Java Implementation of Bubble Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Bubble_Sort.java)
+
 #### Time Complexity:
 
-- Best case: O(1)
+- **Best case:** O(n)
 
-  > Constant Time complexity.
+  > Linear Time complexity.
 
   > Occurrence: When the given data set is already sorted in requested sorting order.
 
-- Worst case: O(n<sup>2</sup>)
+  > Why ?: If the array is sorted then the algorithm will not swap in inner loop for every 'n' element. The algorithm will only iterate over the elements of the array resulting in Linear Time complexity.
+
+- **Worst case:** O(n<sup>2</sup>)
 
   > Quadratic Time complexity.
   
   > Occurrence: When the given data set is sorted in opposite order of the requested sorting order.
 
+  > Why ?: If the array is sorted in opposite order of the requested sorting order. Then it will take 'n' no. of swaps for a "single" element to be sorted. So, to sort all 'n' elements we need to swap n*n elements resulting in Quadratic Time complexity.
+
 #### Space Complexity:
 
-- Any case: O(1)
+- **Any case:** O(1)
 
     > Linear Space complexity.

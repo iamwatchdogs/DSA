@@ -9,8 +9,8 @@ Sorting algorithm plays a key role in sorting out the given data set in an order
 
 Here we are going to discuss the following sorting algorithms:
 - [Bubble Sort](#bubble-sort-algorithm)
-<!--
 - [Selection Sort](#selection-sort-algorithm)
+<!--
 - [Insertion Sort](#insertion-sort-algorithm)
 - [Cyclic Sort](#cyclic-sort-algorithm)
 -->
@@ -91,3 +91,36 @@ Here we are going to discuss the following sorting algorithms:
 - **Any case:** O(1)
 
     > Linear Space complexity.
+
+## Selection Sort Algorithm
+
+- Selection sort is another **basic sorting algorithm** apart from [Bubble Sort](#bubble-sort-algorithm).
+- Selection sort is also `implemented using a nested loop`, but it's different from implementation of [Bubble Sort](#bubble-sort-algorithm).
+- We `start` this algorithm `by choosing an element` in the given data set, In my case, I have chosen the first element to start with.
+- Now, In the inner loop, we will `compare the selected element with the whole data set` towards the right side.
+- Since this algorithm is for sorting in increasing order *( it can be for decreasing order too )*, we `swap the selected element every single time we find even smaller element` while iterating throughout data set **using inner loop**.
+- `For each i-th iteration, One element will get sorted` toward the left-hand side i.e, the **sorted side** and the element which are going to get sorted first are the smaller elements.
+- `The inner loop will compare nearly 'n' elements for 'n' no. of times to sort all 'n' elements`, Thus the Time complexity of this algorithm is also same as '[Bubble Sort](#bubble-sort-algorithm)' i.e., O(n<sup>2</sup>).
+- The `Space complexity` of this algorithm `remains constant` as we are not allocating additional memory for implementing this algorithm.
+- This **Not** a Stable algorithm i.e., `it's an Unstable algorithm`.
+
+![Selection Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Selection_Sort.png)
+
+- [Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/)
+- [Click here for watching detailed implementation](https://youtu.be/BruMUw6mV1c?t=298)
+- [Click here to see the Java Implementation of Selection Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java)
+#### Time Complexity:
+
+- **Best/Worst case:** O(n<sup>2</sup>)
+
+  > Quadratic Time complexity.
+
+  > Occurrence: Occurs for any case.
+
+  > Why ?: The algorithm will compare 'n' no. of elements for all 'n' no. of elements in any case.
+
+#### Space Complexity:
+
+- **Any case:** O(1)
+
+  > Linear Space complexity.

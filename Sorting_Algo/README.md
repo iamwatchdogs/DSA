@@ -10,8 +10,8 @@ Sorting algorithm plays a key role in sorting out the given data set in an order
 Here we are going to discuss the following sorting algorithms:
 - [Bubble Sort](#bubble-sort-algorithm "Learn about bubble sort")
 - [Selection Sort](#selection-sort-algorithm "Learn about selection sort")
-<!--
 - [Insertion Sort](#insertion-sort-algorithm "Learn about insertion sort")
+<!--
 - [Cyclic Sort](#cyclic-sort-algorithm "Learn about cyclic sort")
 -->
 
@@ -124,3 +124,52 @@ Here we are going to discuss the following sorting algorithms:
 - **Any case:** O(1)
 
   > Linear Space complexity.
+
+## Insertion Sort Algorithm
+
+- Insertion sort algorithm is another **basic sorting algorithm** apart from above two sorting algorithms.
+- Insertion sort is also `implemented using a nested loop`, but when compare with above two algorithm **[this algorithm is even better](#Why-Insertion-Sorting-Algorithm-is-better-than-above-algorithm-? "Wanna know why !")**.
+- In Insertion sort, we divide the array **( By imagination )** into two section, One side as the sorted one and the other unsorted.
+- The basic ideology of this algorithm is that, we `take an element from the unsorted part` of the array and `insert it into the sorted section` of the array `such a way that` even after inserting the element `the sorted section remains sorted`.
+- In the outer loop iterates for 'n-1' times in total because there is an occurrence of **indexOutOfBounds** error from the inner loop.
+- The `Inner loop takes the 'i+1'-th element` of the array *( the unsorted part, say it's on right-side )* `and compares with the elements on left-side side` *( Which is the sorted side )* and `inserts it` in its rightful place.
+- In the Inner loop, the `'i+1'-th element will be swapped multiple times` with the elements of sorted part of array `unti`l the order's `condition is met`. 
+- Say, the sorting algorithm is sorting in increasing order, Then the 'i+1'-th element will be swapped multiple times until it comes across an element which even smaller than the 'i+1'-th element.
+- This process will **continue until** the number of sorted elements **equals to** the number of elements in the given array.
+
+![Insertion Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Insertion_Sort.png "View Insertion Sort Example")
+
+- [Read Insertion Sort Documentation](https://www.geeksforgeeks.org/insertion-sort/ "Look out for more about Insertion Sort in GFG")
+- [Watch detailed implementation](https://youtu.be/By_5-RRqVeE?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=116 "Look out for more detailed explanation by Kunal")
+- [See the Java Implementation of Insertion Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Insertion sort")
+
+#### Time Complexity:
+
+- **Best case:** O(n)
+
+  > Linear Time complexity.
+
+  > Occurrence: When the given data set is already sorted in requested sorting order.
+
+  > Why ?: Say the algorithm gets the sorted input. When the 'i+1'-th element compares itself with sorted section, it ends right there. This will happen to all the remaining 'n' (nearly) elements. Hence, the outer loop iterates over nearly 'n' element without any swap resulting in O(n) complexity.
+
+- **Worst case:** O(n<sup>2</sup>)
+
+  > Quadratic Time complexity.
+
+  > Occurrence: When the given data set is sorted in opposite order of the requested sorting order.
+
+  > Why ?: If the array is sorted in opposite order of the requested sorting order. Then it will take 'n' no. of swaps for a "single" element to be inserted into sorted section. So, to sort all 'n' elements we need to swap n*n elements resulting in Quadratic Time complexity.
+
+#### Space Complexity:
+
+- **Any case:** O(1)
+
+  > Linear Space complexity.
+
+### Why Insertion Sorting Algorithm is better than above algorithm ?
+
+- Insertion sorting algorithm practically take `less no. of comparisons` than [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
+- **Does not** make any unnecessary comparisons like in [Selection Sort](#selection-sort-algorithm "Go back to selection sort").
+- `Works effectively on` data sets of `smaller dimensions` ( or ) the data sets which are `partially sorted`.
+- Also used as part of **Hybrid Algorithm**.

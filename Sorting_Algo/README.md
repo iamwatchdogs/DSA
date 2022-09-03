@@ -2,7 +2,7 @@
 
 Sorting algorithm plays a key role in sorting out the given data set in an order for an easy and effective access of data items, and plays an important role in problem-solving solution. The prerequisites for learning/using these sorting algorithms are:
 - Basic programming language syntax
-- [Concepts of Array Data structure]()
+- [Concepts of Array Data structure](https://github.com/iamwatchdogs/DSA/blob/main/Array_Data_Structure/README.md "Learn Array Data Structure")
 - Time Complexity
 - Space Complexity
 - [Stable vs Unstable algorithm](#stable-vs-unstable-algorithm "Learn about stable & unstable algorithms")

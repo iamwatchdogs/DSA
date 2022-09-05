@@ -6,6 +6,7 @@ Sorting algorithm plays a key role in sorting out the given data set in an order
 - Time Complexity
 - Space Complexity
 - [Stable vs Unstable algorithm](#stable-vs-unstable-algorithm "Learn about stable & unstable algorithms")
+- Recursion *( for sorting-algo like merges sort, quick sort )*
 
 Here we are going to discuss the following sorting algorithms:
 - [Bubble Sort](#bubble-sort-algorithm "Learn about bubble sort")
@@ -13,6 +14,8 @@ Here we are going to discuss the following sorting algorithms:
 - [Insertion Sort](#insertion-sort-algorithm "Learn about insertion sort")
 <!--
 - [Cyclic Sort](#cyclic-sort-algorithm "Learn about cyclic sort")
+- [Merge Sort](#merge-sort-algorithm "Learn about merge sort")
+- [Quick Sort](#quick-sort-algorithm "Learn about quick sort")
 -->
 
 ## Note:
@@ -64,9 +67,9 @@ Here we are going to discuss the following sorting algorithms:
 
 ![Bubble Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Bubble_Sort.png "View Bubble Sort Example")
 
-- [Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/ "Look out for more about Bubble Sort in GFG")
-- [Click here for watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194 "Look out for more detailed explanation by kunal")
-- [Click here to see the Java Implementation of Bubble Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Bubble_Sort.java "Check out the Java implementation of bubble sort")
+- [Read Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/ "Look out for more about Bubble Sort in GFG")
+- [Watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194 "Look out for more detailed explanation by kunal")
+- [See the Java Implementation of Bubble Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Bubble_Sort.java "Check out the Java implementation of bubble sort")
 
 #### Time Complexity:
 
@@ -106,9 +109,10 @@ Here we are going to discuss the following sorting algorithms:
 
 ![Selection Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Selection_Sort.png "View Selection Sort Example")
 
-- [Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/ "Look out for more about Selection Sort in GFG")
-- [Click here to watch detailed implementation](https://youtu.be/BruMUw6mV1c?t=298 "Look out for more detailed explanation by NPTEL Course: DSA using Python")
-- [Click here to see the Java Implementation of Selection Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Selection sort")
+- [Read Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/ "Look out for more about Selection Sort in GFG")
+- [Watch detailed implementation](https://youtu.be/BruMUw6mV1c?t=298 "Look out for more detailed explanation by NPTEL Course: DSA using Python")
+- [See the Java Implementation of Selection Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Selection sort")
+
 #### Time Complexity:
 
 - **Best/Worst case:** O(n<sup>2</sup>)

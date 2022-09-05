@@ -2,7 +2,7 @@
 
 Sorting algorithm plays a key role in sorting out the given data set in an order for an easy and effective access of data items, and plays an important role in problem-solving solution. The prerequisites for learning/using these sorting algorithms are:
 - Basic programming language syntax
-- [Concepts of Array Data structure](../blob/main/Array_Data_Structure/README.md "Learn Array Data Structure")
+- [Concepts of Array Data structure](../Array_Data_Structure/README.md "Learn Array Data Structure")
 - Time Complexity
 - Space Complexity
 - [Stable vs Unstable algorithm](#stable-vs-unstable-algorithm "Learn about stable & unstable algorithms")
@@ -38,20 +38,20 @@ Here we are going to discuss the following sorting algorithms:
 - `Unstable algorithm is quite opposite` to the stable algorithm.
 - So, if the first occurrence of the duplicate data item doesn't stay the first occurrence of the duplicate data item then it's said to be Unstable Algorithm.
 
-![Example for Stable and Unstable algorithm](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_1.png "View Example for Stable and Unstable algorithm")
+![Example for Stable and Unstable algorithm](../Sorting_Algo/src/Stable_vs_Unstable_sort_1.png "View Example for Stable and Unstable algorithm")
 
 ###  Why do we need determine whether the algorithm is stable or not ?
 
 - Consider a situation where you have set of data where the *Name* column is mapped with *Age* Column.
 - Say the user wanted to `sort` the data set `w.r.t 'Age'` first, just as shown below.
 
-![Example data set sorted by Age](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_2.png "View Example data set sorted by Age")
+![Example data set sorted by Age](../Sorting_Algo/src/Stable_vs_Unstable_sort_2.png "View Example data set sorted by Age")
 
 - `After sorting` the data set w.r.t Age, say the `user wanted to sort` the same data set `w.r.t 'Name'`.
 - Then, if we have implemented a `stable algorithm`, the data `displayed will be in sorted order` both in terms of 'Age' and 'Name'.
 - But, it's not same with the `unstable algorithm`, since the order of 'Age' `will be disordered` after sorting 'Name' column ( Just as shown in below figure ).
 
-![Above example after data set sorted by Name](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Stable_vs_Unstable_sort_3.png "View Above example after being sorted by Name")
+![Above example after data set sorted by Name](../Sorting_Algo/src/Stable_vs_Unstable_sort_3.png "View Above example after being sorted by Name")
 
 - This is why need to determine the algorithm  as stable or unstable to make better use of it w.r.t the situation demands.
 
@@ -65,11 +65,11 @@ Here we are going to discuss the following sorting algorithms:
 - `Thus, the time complexity` of this algorithm becomes `O(n)`. And the `Space complexity will remain constant` since we are not allocating addition memory.
 - This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Bubble Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Bubble_Sort.png "View Bubble Sort Example")
+![Bubble Sort Example](../Sorting_Algo/src/Bubble_Sort.png "View Bubble Sort Example")
 
 - [Read Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/ "Look out for more about Bubble Sort in GFG")
 - [Watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194 "Look out for more detailed explanation by kunal")
-- [See the Java Implementation of Bubble Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Bubble_Sort.java "Check out the Java implementation of bubble sort")
+- [See the Java Implementation of Bubble Sort](../Sorting_Algo/Bubble_Sort.java "Check out the Java implementation of bubble sort")
 
 #### Time Complexity:
 
@@ -107,11 +107,11 @@ Here we are going to discuss the following sorting algorithms:
 - The `Space complexity` of this algorithm `remains constant` as we are not allocating additional memory for implementing this algorithm.
 - This **Not** a [Stable algorithm](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms") i.e., [`it's an Unstable algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Selection Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Selection_Sort.png "View Selection Sort Example")
+![Selection Sort Example](../Sorting_Algo/src/Selection_Sort.png "View Selection Sort Example")
 
 - [Read Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/ "Look out for more about Selection Sort in GFG")
 - [Watch detailed implementation](https://youtu.be/BruMUw6mV1c?t=298 "Look out for more detailed explanation by NPTEL Course: DSA using Python")
-- [See the Java Implementation of Selection Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Selection sort")
+- [See the Java Implementation of Selection Sort](../Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Selection sort")
 
 #### Time Complexity:
 
@@ -142,11 +142,11 @@ Here we are going to discuss the following sorting algorithms:
 - This process will **continue until** the number of sorted elements **equals to** the number of elements in the given array.
 - This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Insertion Sort Example](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/src/Insertion_Sort.png "View Insertion Sort Example")
+![Insertion Sort Example](../Sorting_Algo/src/Insertion_Sort.png "View Insertion Sort Example")
 
 - [Read Insertion Sort Documentation](https://www.geeksforgeeks.org/insertion-sort/ "Look out for more about Insertion Sort in GFG")
 - [Watch detailed implementation](https://youtu.be/By_5-RRqVeE?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=116 "Look out for more detailed explanation by Kunal")
-- [See the Java Implementation of Insertion Sort](https://github.com/iamwatchdogs/DSA/blob/main/Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Insertion sort")
+- [See the Java Implementation of Insertion Sort](../Sorting_Algo/Selection_Sort.java "Check out the Java implementation of Insertion sort")
 
 #### Time Complexity:
 

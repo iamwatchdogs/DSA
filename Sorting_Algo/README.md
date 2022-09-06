@@ -66,7 +66,7 @@ Here we are going to discuss the following sorting algorithms:
 - This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
 <div align="center">
-  <a href="../Sorting_Algo/src/Bubble_Sort.png">
+  <a href="../Sorting_Algo/src/Bubble_Sort.png" target="_blank">
     <img src="../Sorting_Algo/src/Bubble_Sort.png" alt="Bubble Sort Example" title="View Bubble Sort Example" />
   </a>
 </div>
@@ -112,7 +112,7 @@ Here we are going to discuss the following sorting algorithms:
 - This **Not** a [Stable algorithm](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms") i.e., [`it's an Unstable algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
 <div align="center">
-  <a href="../Sorting_Algo/src/Selection_Sort.png">
+  <a href="../Sorting_Algo/src/Selection_Sort.png" target="_blank">
     <img src="../Sorting_Algo/src/Selection_Sort.png" alt="Selection Sort Example" title="View Selection Sort Example" />
   </a>
 </div>
@@ -226,7 +226,7 @@ Here we are going to discuss the following sorting algorithms:
   > In some situations (where the above condition is applied), where need to sort in O(n) time complexity and O(1) space complexity.
 
 <div align="center">
-  <a href="../Sorting_Algo/src/Cyclic_Sort.jpeg">
+  <a href="../Sorting_Algo/src/Cyclic_Sort.jpeg" target="_blank">
     <img src="../Sorting_Algo/src/Cyclic_Sort.jpeg" alt="Cyclic Sort Example" title="View Cyclic Sort Example" />
   </a>
 </div>

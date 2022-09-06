@@ -205,14 +205,20 @@ Here we are going to discuss the following sorting algorithms:
 > **Any case:** O(1)
 >
 >> Linear Space complexity.
+ 
 ---
-### Why Insertion Sorting Algorithm is better than above algorithm ?
 
-- Insertion sorting algorithm practically take `less no. of comparisons` than [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
-- **Does not** make any unnecessary comparisons like in [Selection Sort](#selection-sort-algorithm "Go back to selection sort").
-- Unlike [Selection Sort](#selection-sort-algorithm "Go back to selection sort"), it is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
-- `Works effectively on` data sets of `smaller dimensions` ( or ) the data sets which are `partially sorted`.
-- Also used as part of **Hybrid Algorithm**.
+> ### Why Insertion Sorting Algorithm is better than above algorithm ?
+>> - Insertion sorting algorithm practically take `less no. of comparisons` than [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
+>
+>> - **Does not** make any unnecessary comparisons like in [Selection Sort](#selection-sort-algorithm "Go back to selection sort").
+>
+>> - Unlike [Selection Sort](#selection-sort-algorithm "Go back to selection sort"), it is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
+>
+>> -  `Works effectively on` data sets of `smaller dimensions` ( or ) the data sets which are `partially sorted`.
+>
+>> - Also used as part of **Hybrid Algorithm**.
+
 ---
 
 ## Cyclic Sort Algorithm
@@ -239,13 +245,15 @@ Here we are going to discuss the following sorting algorithms:
   - So, `after swapping` we will `go back to verify the 'condition'`.
 - **After each iteration, one unique element will be sorted to its rightful place**.
 - So, to sort all 'n' elements we have to iterate though the whole data set.
-- **Key point to Remember:**
-  - Since this algorithm gives the best performance than other sorting algorithm we discussed till now,
-  - We need to remember where we can use this algorithm.
 
-  > We can use this algorithm when we have a situation where the dataset will be containing ONLY the elements ranged from 0 to 'n' (or) from 1 to 'n'.
-
-  > In some situations (where the above condition is applied), where need to sort in O(n) time complexity and O(1) space complexity.
+> **Key point to Remember :**
+> - This algorithm is NOT a Stable algorithm, which means it's an [`Unstable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
+> - Since this algorithm gives the `best performance` than other sorting algorithm we discussed till now,
+> - We need to remember where we can use this algorithm.,
+>
+>> We can use this algorithm when we have a situation where the dataset will be containing ONLY the elements ranged from 0 to 'n' (or) from 1 to 'n'.
+>
+>> In some situations (where the above condition is applied), where need to sort in O(n) time complexity and O(1) space complexity.
 
 <div align="center">
   <a href="../Sorting_Algo/src/Cyclic_Sort.jpeg" target="_blank">

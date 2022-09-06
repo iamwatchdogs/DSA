@@ -279,7 +279,7 @@ Here we are going to discuss the following sorting algorithms:
 >> **Why ?:**
 >>> When we have the above-mentioned case, it would take n-1 swaps to set the 'value' in its place. On other hand, due to these swaps, th other 'n-1' elements have already been sorted. All that left is to iterate over the elements. 
 >>
->>> Thus, (n-1) /* swaps */ + n /* iterations */ = 2 * n+1 => O(n).
+>>> Thus, (n-1) < swaps > + n < iterations > = 2*n+1 => O(n).
 
 #### Space Complexity:
 

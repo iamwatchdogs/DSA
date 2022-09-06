@@ -253,7 +253,7 @@ Here we are going to discuss the following sorting algorithms:
   </a>
 </div>
 
-- [Read Cyclic Sort Documentation](https://www.geeksforgeeks.org/cyclic-sort/ "Look out for more about Insertion Sort in GFG")
+- [Read Cyclic Sort Documentation [ Read from Method 2 ] ](https://www.geeksforgeeks.org/cycle-sort/ "Look out for more about Cyclic Sort in GFG")
 - [Watch detailed implementation](https://youtu.be/JfinxytTYFQ?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=292 "Look out for more detailed explanation by Kunal")
 - [See the Java Implementation of Cyclic Sort](../Sorting_Algo/Cyclic_Sort.java "Check out the Java implementation of Cyclic sort")
 

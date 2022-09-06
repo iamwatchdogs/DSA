@@ -12,8 +12,8 @@ Here we are going to discuss the following sorting algorithms:
 - [Bubble Sort](#bubble-sort-algorithm "Learn about bubble sort")
 - [Selection Sort](#selection-sort-algorithm "Learn about selection sort")
 - [Insertion Sort](#insertion-sort-algorithm "Learn about insertion sort")
-<!--
 - [Cyclic Sort](#cyclic-sort-algorithm "Learn about cyclic sort")
+<!--
 - [Merge Sort](#merge-sort-algorithm "Learn about merge sort")
 - [Quick Sort](#quick-sort-algorithm "Learn about quick sort")
 -->
@@ -192,3 +192,69 @@ Here we are going to discuss the following sorting algorithms:
 - `Works effectively on` data sets of `smaller dimensions` ( or ) the data sets which are `partially sorted`.
 - Also used as part of **Hybrid Algorithm**.
 ---
+
+## Cyclic Sort Algorithm
+
+- Cyclic sort is one of the **effective sorting algorithm** compared to the above sorting algorithms.
+- Because this algorithm `sorts` all the elements in the order in a `single pass`.
+- The **only restriction / requirement** is that the `all the elements of the input data set` has to be `in range of 1 to 'n'` elements `(or) 0 to 'n'` elements.
+- This algorithm works on a **key principal / 'condition'** and that is,
+  - `'value'-1 == 'index'` , when the elements in data set `range from 1 to 'n'`. *( the one we are going to use here )*
+  - `'value' == 'index'` , when the elements in data set `range from 0 to 'n'`.
+  - for the below explanation, consider the key word **'condition'** referring to the above conditions.
+- This algorithm starts by taking the `'index' as zero` and the value of `'value' as element at 'index'-th index`.
+- Then we will verify if the 'condition' is true or false.
+- If the `'condition' is true`,
+  - Then we can say that the `element is in its rightful place` as the condition has been satisfied.
+  - So, we `increment the index` to check for remaining elements of the data set.
+  - `After increment`, we go back to the condition to `check the next elements`.
+- but If the `condition fails` then,
+  - we will `swap the 'value'` to its rightful place `which lies at the index, 'value'-1`.
+  - So, we will swap the 'value' at index 'index' with the element at index 'value'-1.
+  - `After this swap`, we can say that the `value` is placed in its rightful place (or) it `is sorted`.
+  - Unlike the 'condition' true case, we **won't be incrementing the 'index'**.
+  - Because there might be a chance that this element at index 'index' is not sorted.
+  - So, `after swapping` we will `go back to verify the 'condition'`.
+- **After each iteration, one unique element will be sorted to its rightful place**.
+- So, to sort all 'n' elements we have to iterate though the whole data set.
+- **Key point to Remember:**
+  - Since this algorithm gives the best performance than other sorting algorithm we discussed till now,
+  - We need to remember where we can use this algorithm.
+
+  > We can use this algorithm when we have a situation where the dataset will be containing ONLY the elements ranged from 0 to 'n' (or) from 1 to 'n'.
+
+  > In some situations (where the above condition is applied), where need to sort in O(n) time complexity and O(1) space complexity.
+
+<div align="center">
+  <a href="../Sorting_Algo/src/Cyclic_Sort.jpeg">
+    <img src="../Sorting_Algo/src/Cyclic_Sort.jpeg" alt="Cyclic Sort Example" title="View Cyclic Sort Example" />
+  </a>
+</div>
+
+- [Read Cyclic Sort Documentation](https://www.geeksforgeeks.org/cyclic-sort/ "Look out for more about Insertion Sort in GFG")
+- [Watch detailed implementation](https://youtu.be/JfinxytTYFQ?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=292 "Look out for more detailed explanation by Kunal")
+- [See the Java Implementation of Cyclic Sort](../Sorting_Algo/Cyclic_Sort.java "Check out the Java implementation of Cyclic sort")
+
+#### Time Complexity:
+
+- **Best case:** O(n)
+
+  > Linear Time complexity.
+
+  > Occurrence: When the given data set is already sorted in requested sorting order.
+
+  > Why ?: If the given data set is sorted then there will be no swapping done, the loop will on iterate over the data set resulting the Linear Time complexity.
+
+- **Worst case:** O(n)
+
+  > Linear Time complexity.
+
+  > Occurrence: When the elements are placed such a way that it take n-1 swaps to get the 'value' in its place.
+
+  > Why ?: When we have the above-mentioned case, it would take n-1 swaps to set the 'value' in its place. On other hand, due to these swaps, th other 'n-1' elements have already been sorted. All that left is to iterate over the elements. Thus, (n-1) /* swaps */ + n /* iterations */ = 2 * n+1 => O(n).
+
+#### Space Complexity:
+
+- **Any case:** O(1)
+
+  > Linear Space complexity.

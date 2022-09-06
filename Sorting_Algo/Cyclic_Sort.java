@@ -47,9 +47,10 @@ public class Cyclic_Sort {
                 arr[index] = arr[value-1];              // 2. arr[index] = arr[arr[index]-1];    /* like why take an extra  */
                 arr[value-1] = temp;                    // 3. arr[arr[index]-1] = temp;          /* variable 'value'.       */
             }                                           //
-            // End of if-else statement                 // If you are thinking like that then you're terribly mistaken,
-        }                                               // Remember that you are changing the value of 'arr[index]' at step-2
-        // End of Algorithm.                            // Then how can you use it at the step-3.
+            // By End of if-else statement,             // If you are thinking like that then you're terribly mistaken,
+            // One unique 'value' is getting sorted.    // Remember that you are changing the value of 'arr[index]' at step-2
+        }                                               // Then how can you use it at the step-3, Think once.
+        // End of Algorithm.
     }
 
     public static void main(String[] args) {

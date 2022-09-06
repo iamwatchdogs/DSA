@@ -38,20 +38,32 @@ Here we are going to discuss the following sorting algorithms:
 - `Unstable algorithm is quite opposite` to the stable algorithm.
 - So, if the first occurrence of the duplicate data item doesn't stay the first occurrence of the duplicate data item then it's said to be Unstable Algorithm.
 
-![Example for Stable and Unstable algorithm](../Sorting_Algo/src/Stable_vs_Unstable_sort_1.png "View Example for Stable and Unstable algorithm")
+<div align="center">
+  <a href="../Sorting_Algo/src/Stable_vs_Unstable_sort_1.png" target="_blank">
+    <img src="../Sorting_Algo/src/Stable_vs_Unstable_sort_1.png" alt="Example for Stable and Unstable algorithm" title="View Example for Stable and Unstable algorithm" />
+  </a>
+</div>
 
 ###  Why do we need determine whether the algorithm is stable or not ?
 
 - Consider a situation where you have set of data where the *Name* column is mapped with *Age* Column.
 - Say the user wanted to `sort` the data set `w.r.t 'Age'` first, just as shown below.
 
-![Example data set sorted by Age](../Sorting_Algo/src/Stable_vs_Unstable_sort_2.png "View Example data set sorted by Age")
+<div align="center">
+  <a href="../Sorting_Algo/src/Stable_vs_Unstable_sort_2.png" target="_blank">
+    <img src="../Sorting_Algo/src/Stable_vs_Unstable_sort_2.png" alt="Example data set sorted by Age" title="View Example data set sorted by Age" />
+  </a>
+</div>
 
 - `After sorting` the data set w.r.t Age, say the `user wanted to sort` the same data set `w.r.t 'Name'`.
 - Then, if we have implemented a `stable algorithm`, the data `displayed will be in sorted order` both in terms of 'Age' and 'Name'.
 - But, it's not same with the `unstable algorithm`, since the order of 'Age' `will be disordered` after sorting 'Name' column ( Just as shown in below figure ).
 
-![Above example after data set sorted by Name](../Sorting_Algo/src/Stable_vs_Unstable_sort_3.png "View Above example after being sorted by Name")
+<div align="center">
+  <a href="../Sorting_Algo/src/Stable_vs_Unstable_sort_3.png" target="_blank">
+    <img src="../Sorting_Algo/src/Stable_vs_Unstable_sort_3.png" alt="Above example after data set sorted by Name" title="View Above example after being sorted by Name" />
+  </a>
+</div>
 
 - This is why need to determine the algorithm  as stable or unstable to make better use of it w.r.t the situation demands.
 

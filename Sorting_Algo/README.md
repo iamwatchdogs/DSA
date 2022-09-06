@@ -65,7 +65,11 @@ Here we are going to discuss the following sorting algorithms:
 - `Thus, the time complexity` of this algorithm becomes `O(n)`. And the `Space complexity will remain constant` since we are not allocating addition memory.
 - This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Bubble Sort Example](../Sorting_Algo/src/Bubble_Sort.png "View Bubble Sort Example")
+<div align="center">
+  <a href="../Sorting_Algo/src/Bubble_Sort.png">
+    <img src="../Sorting_Algo/src/Bubble_Sort.png" alt="Bubble Sort Example" title="View Bubble Sort Example" />
+  </a>
+</div>
 
 - [Read Bubble Sort Documentation](https://www.geeksforgeeks.org/bubble-sort/ "Look out for more about Bubble Sort in GFG")
 - [Watching detailed explanation](https://youtu.be/F5MZyqRp_IM?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=194 "Look out for more detailed explanation by kunal")
@@ -107,7 +111,11 @@ Here we are going to discuss the following sorting algorithms:
 - The `Space complexity` of this algorithm `remains constant` as we are not allocating additional memory for implementing this algorithm.
 - This **Not** a [Stable algorithm](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms") i.e., [`it's an Unstable algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Selection Sort Example](../Sorting_Algo/src/Selection_Sort.png "View Selection Sort Example")
+<div align="center">
+  <a href="../Sorting_Algo/src/Selection_Sort.png">
+    <img src="../Sorting_Algo/src/Selection_Sort.png" alt="Selection Sort Example" title="View Selection Sort Example" />
+  </a>
+</div>
 
 - [Read Selection Sort Documentation](https://www.geeksforgeeks.org/selection-sort/ "Look out for more about Selection Sort in GFG")
 - [Watch detailed implementation](https://youtu.be/BruMUw6mV1c?t=298 "Look out for more detailed explanation by NPTEL Course: DSA using Python")
@@ -142,7 +150,11 @@ Here we are going to discuss the following sorting algorithms:
 - This process will **continue until** the number of sorted elements **equals to** the number of elements in the given array.
 - This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 
-![Insertion Sort Example](../Sorting_Algo/src/Insertion_Sort.png "View Insertion Sort Example")
+<div align="center">
+  <a href="../Sorting_Algo/src/Insertion_Sort.png">
+    <img src="../Sorting_Algo/src/Insertion_Sort.png" alt="Insertion Sort Example" title="View Insertion Sort Example" />
+  </a>
+</div>
 
 - [Read Insertion Sort Documentation](https://www.geeksforgeeks.org/insertion-sort/ "Look out for more about Insertion Sort in GFG")
 - [Watch detailed implementation](https://youtu.be/By_5-RRqVeE?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=116 "Look out for more detailed explanation by Kunal")

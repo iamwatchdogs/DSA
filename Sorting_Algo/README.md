@@ -89,31 +89,31 @@ Here we are going to discuss the following sorting algorithms:
 
 #### Time Complexity:
 
-- **Best case:** O(n)
+> **Best case:** O(n)
+>
+>> Linear Time complexity.
+>
+>> **Occurrence:**
+>>> When the given data set is already sorted in requested sorting order.
+>
+>>**Why ?:**
+>>> If the array is sorted then the algorithm will not swap in inner loop for every 'n' element. The algorithm will only iterate over the elements of the array resulting in Linear Time complexity.
 
-  > Linear Time complexity.
-
-  - **Occurrence:**
-    > When the given data set is already sorted in requested sorting order.
-
-  - **Why ?:**
-    > If the array is sorted then the algorithm will not swap in inner loop for every 'n' element. The algorithm will only iterate over the elements of the array resulting in Linear Time complexity.
-
-- **Worst case:** O(n<sup>2</sup>)
-
-  > Quadratic Time complexity.
-
-  - **Occurrence:**
-    > When the given data set is sorted in opposite order of the requested sorting order.
-
-  - **Why ?:**
-    > If the array is sorted in opposite order of the requested sorting order. Then it will take 'n' no. of swaps for a "single" element to be sorted. So, to sort all 'n' elements we need to swap n*n elements resulting in Quadratic Time complexity.
+> **Worst case:** O(n<sup>2</sup>)
+>
+>> Quadratic Time complexity.
+>
+>> **Occurrence:**
+>>> When the given data set is sorted in opposite order of the requested sorting order.
+>
+>> **Why ?:**
+>>> If the array is sorted in opposite order of the requested sorting order. Then it will take 'n' no. of swaps for a "single" element to be sorted. So, to sort all 'n' elements we need to swap n*n elements resulting in Quadratic Time complexity.
 
 #### Space Complexity:
 
-- **Any case:** O(1)
-
-  > Linear Space complexity.
+> **Any case:** O(1)
+>
+>> Linear Space complexity.
 
 ## Selection Sort Algorithm
 
@@ -139,21 +139,21 @@ Here we are going to discuss the following sorting algorithms:
 
 #### Time Complexity:
 
-- **Best/Worst case:** O(n<sup>2</sup>)
-
-  > Quadratic Time complexity.
-
-  - **Occurrence:**
-    >  Occurs for any case.
-
-  - **Why ?:**
-    >  The algorithm will compare 'n' no. of elements for all 'n' no. of elements in any case.
+> **Best/Worst case:** O(n<sup>2</sup>)
+>
+>> Quadratic Time complexity.
+>
+>> **Occurrence:**
+>>>  Occurs for any case.
+>
+>> **Why ?:**
+>>>  The algorithm will compare 'n' no. of elements for all 'n' no. of elements in any case.
 
 #### Space Complexity:
 
-- **Any case:** O(1)
-
-  > Linear Space complexity.
+> **Any case:** O(1)
+>
+>> Linear Space complexity.
 
 ## Insertion Sort Algorithm
 
@@ -180,31 +180,31 @@ Here we are going to discuss the following sorting algorithms:
 
 #### Time Complexity:
 
-- **Best case:** O(n)
+> **Best case:** O(n)
+>
+>> Linear Time complexity.
+>
+>> **Occurrence:**
+>>> When the given data set is already sorted in requested sorting order.
+>
+>> **Why ?:**
+>>> Say the algorithm gets the sorted input. When the 'i+1'-th element compares itself with sorted section, it ends right there. This will happen to all the remaining 'n' (nearly) elements. Hence, the outer loop iterates over nearly 'n' element without any swap resulting in O(n) complexity.
 
-  > Linear Time complexity.
-
-  - **Occurrence:**
-    > When the given data set is already sorted in requested sorting order.
-
-  - **Why ?:**
-    > Say the algorithm gets the sorted input. When the 'i+1'-th element compares itself with sorted section, it ends right there. This will happen to all the remaining 'n' (nearly) elements. Hence, the outer loop iterates over nearly 'n' element without any swap resulting in O(n) complexity.
-
-- **Worst case:** O(n<sup>2</sup>)
-
-  > Quadratic Time complexity.
-
-  - **Occurrence:**
-    > When the given data set is sorted in opposite order of the requested sorting order.
-
-  - **Why ?:**
-    > If the array is sorted in opposite order of the requested sorting order. Then it will take 'n' no. of swaps for a "single" element to be inserted into sorted section. So, to sort all 'n' elements we need to swap n*n elements resulting in Quadratic Time complexity.
+> **Worst case:** O(n<sup>2</sup>)
+>
+>> Quadratic Time complexity.
+>
+>> **Occurrence:**
+>>> When the given data set is sorted in opposite order of the requested sorting order.
+>
+>> **Why ?:**
+>>> If the array is sorted in opposite order of the requested sorting order. Then it will take 'n' no. of swaps for a "single" element to be inserted into sorted section. So, to sort all 'n' elements we need to swap n*n elements resulting in Quadratic Time complexity.
 
 #### Space Complexity:
 
-- **Any case:** O(1)
-
-  > Linear Space complexity.
+> **Any case:** O(1)
+>
+>> Linear Space complexity.
 ---
 ### Why Insertion Sorting Algorithm is better than above algorithm ?
 
@@ -259,28 +259,28 @@ Here we are going to discuss the following sorting algorithms:
 
 #### Time Complexity:
 
-- **Best case:** O(n)
+> **Best case:** O(n)
+>
+>> Linear Time complexity.
+>
+>> **Occurrence:**
+>>> When the given data set is already sorted in requested sorting order.
+>
+>> **Why ?:**
+>>> If the given data set is sorted then there will be no swapping done, the loop will on iterate over the data set resulting the Linear Time complexity.
 
-  > Linear Time complexity.
-
-  - **Occurrence:**
-    > When the given data set is already sorted in requested sorting order.
-
-  - **Why ?:**
-    > If the given data set is sorted then there will be no swapping done, the loop will on iterate over the data set resulting the Linear Time complexity.
-
-- **Worst case:** O(n)
-
-  > Linear Time complexity.
-
-  - **Occurrence:**
-    > When the elements are placed such a way that it take n-1 swaps to get the 'value' in its place.
-
-  - **Why ?:**
-    > When we have the above-mentioned case, it would take n-1 swaps to set the 'value' in its place. On other hand, due to these swaps, th other 'n-1' elements have already been sorted. All that left is to iterate over the elements. Thus, (n-1) /* swaps */ + n /* iterations */ = 2 * n+1 => O(n).
+> **Worst case:** O(n)
+>
+>> Linear Time complexity.
+>
+>> **Occurrence:**
+>>> When the elements are placed such a way that it take n-1 swaps to get the 'value' in its place.
+>
+>> **Why ?:**
+>>> When we have the above-mentioned case, it would take n-1 swaps to set the 'value' in its place. On other hand, due to these swaps, th other 'n-1' elements have already been sorted. All that left is to iterate over the elements. Thus, (n-1) /* swaps */ + n /* iterations */ = 2 * n+1 => O(n).
 
 #### Space Complexity:
 
-- **Any case:** O(1)
-
-  > Linear Space complexity.
+> **Any case:** O(1)
+>
+>> Linear Space complexity.

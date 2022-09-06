@@ -158,7 +158,7 @@ Here we are going to discuss the following sorting algorithms:
 ## Insertion Sort Algorithm
 
 - Insertion sort algorithm is another **basic sorting algorithm** apart from above two sorting algorithms.
-- Insertion sort is also `implemented using a nested loop`, but when compare with above two algorithm **[this algorithm is even better](#Why-Insertion-Sorting-Algorithm-is-better-than-above-algorithm-? "Here is why")**.
+- Insertion sort is also `implemented using a nested loop`, but when compare with above two algorithm **[this algorithm is even better](#why-insertion-sorting-algorithm-is-better-than-above-algorithm- "Here is why")**.
 - In Insertion sort, we divide the array **( By imagination )** into two section, One side as the sorted one and the other unsorted.
 - The basic ideology of this algorithm is that, we `take an element from the unsorted part` of the array and `insert it into the sorted section` of the array `such a way that` even after inserting the element `the sorted section remains sorted`.
 - In the outer loop iterates for 'n-1' times in total because there is an occurrence of **indexOutOfBounds** error from the inner loop.
@@ -208,16 +208,16 @@ Here we are going to discuss the following sorting algorithms:
  
 ---
 
-> ### Why Insertion Sorting Algorithm is better than above algorithm ?
->> - Insertion sorting algorithm practically take `less no. of comparisons` than [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
+### Why Insertion Sorting Algorithm is better than above algorithm ?
+> - Insertion sorting algorithm practically take `less no. of comparisons` than [Bubble Sort](#bubble-sort-algorithm "Go back to Bubble Sort").
 >
->> - **Does not** make any unnecessary comparisons like in [Selection Sort](#selection-sort-algorithm "Go back to selection sort").
+> - **Does not** make any unnecessary comparisons like in [Selection Sort](#selection-sort-algorithm "Go back to selection sort").
 >
->> - Unlike [Selection Sort](#selection-sort-algorithm "Go back to selection sort"), it is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
+> - Unlike [Selection Sort](#selection-sort-algorithm "Go back to selection sort"), it is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").
 >
->> -  `Works effectively on` data sets of `smaller dimensions` ( or ) the data sets which are `partially sorted`.
+> -  `Works effectively on` data sets of `smaller dimensions` ( or ) the data sets which are `partially sorted`.
 >
->> - Also used as part of **Hybrid Algorithm**.
+> - Also used as part of **Hybrid Algorithm**.
 
 ---
 

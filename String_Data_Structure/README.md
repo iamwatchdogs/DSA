@@ -87,7 +87,9 @@ Lets us take a look at different implementation in different programming languag
 ## Learning Resources
 
 - For `Java` programming language :
-  > I **strongly recommend** you to check out my personal documentation about strings in [Strings_In_Java.java](Strings_In_Java.java "Visit Strings_In_Java.java")
+
+  > - I **strongly recommend** you to check out my personal documentation about strings in [Strings_In_Java.java](Strings_In_Java.java "Visit Strings_In_Java.java")
+  
   - Check out the tutorial -
     - [Watch English-Hindi tutorial](https://youtu.be/zL1DPZ0Ovlo?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&t=76 "Watch tutorial by Kunal")
   - Read the documentation ( for String Class ) -
@@ -96,5 +98,5 @@ Lets us take a look at different implementation in different programming languag
     - [Read from original JAVA Documentation ( Medium )](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html "Goto Oracle Java String")
   - Read the documentation ( for StringBuilder Class ) -
     - [Read from GFG ( Beginners )](https://www.geeksforgeeks.org/stringbuilder-class-in-java-with-examples/ "Goto GFG Java StringBuilder")
-    - [Read from JavaTPoint Documentation ( best for examples)](https://www.javatpoint.com/StringBuilder-class "Goto javatpoint Java StringBuilder")
+    - [Read from JavaTPoint Documentation](https://www.javatpoint.com/StringBuilder-class "Goto javatpoint Java StringBuilder") *( best for examples )*
     - [Read from original JAVA Documentation ( Medium to Advanced )](https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html "Goto Oracle Java StringBuilder")

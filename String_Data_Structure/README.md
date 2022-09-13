@@ -82,7 +82,7 @@ Lets us take a look at different implementation in different programming languag
   > 
   > Similar to Java, String Manipulation can be done using its own member functions (or) its own methods.
   > 
-  >> - Similar to Java, the strings in python are `immutable`..
+  >> - Similar to Java, the strings in python are `immutable`.
 
 ## Learning Resources
 

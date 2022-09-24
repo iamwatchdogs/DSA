@@ -163,7 +163,7 @@ Here we are going to discuss the following sorting algorithms:
 - The basic ideology of this algorithm is that, we `take an element from the unsorted part` of the array and `insert it into the sorted section` of the array `such a way that` even after inserting the element `the sorted section remains sorted`.
 - In the outer loop iterates for 'n-1' times in total because there is an occurrence of **indexOutOfBounds** error from the inner loop.
 - The `Inner loop takes the 'i+1'-th element` of the array *( the unsorted part, say it's on right-side )* `and compares with the elements on left-side side` *( Which is the sorted side )* and `inserts it` in its rightful place.
-- In the Inner loop, the `'i+1'-th element will be swapped multiple times` with the elements of sorted part of array `unti`l the order's `condition is met`.
+- In the Inner loop, the `'i+1'-th element will be swapped multiple times` with the elements of sorted part of array `until` the order's `condition is met`.
 - Say, the sorting algorithm is sorting in increasing order, Then the 'i+1'-th element will be swapped multiple times until it comes across an element which even smaller than the 'i+1'-th element.
 - This process will **continue until** the number of sorted elements **equals to** the number of elements in the given array.
 - This is a [`Stable Algorithm`](#stable-vs-unstable-algorithm "Go back to stable & unstable algorithms").

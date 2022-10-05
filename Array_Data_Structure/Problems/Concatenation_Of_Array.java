@@ -29,7 +29,12 @@ class Arrays_Solution_3 {
 
     // Time Complexity: O(n)
     // Space Complexity: O(n)
-    // Best solution when 'nums.length' is a bigger value
+    //
+    // Best solution when 'nums.length' is a bigger value.
+    // Roughly when the 'nums.length' > 24, according to benchmark.
+    //
+    // For more details check out,
+    // https://stackoverflow.com/questions/18638743/is-it-better-to-use-system-arraycopy-than-a-for-loop-for-copying-arrays
     public int[] bestCase_2 (int[] nums) {
         int n = nums.length;
         int [] ans = new int[2 * n];

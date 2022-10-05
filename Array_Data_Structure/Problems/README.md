@@ -16,31 +16,38 @@ The following question are solved in here, Try it for your self before checking 
             <td>Find Max Consecutive Ones</td>
             <td><a href="https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/" title="Goto fun-with-arrays">Leetcode</a></td>
             <td>Beginner</td>
-            <td><a href="findMaxConsecutiveOnes.java" title="Goto Find_Max_Consecutive_Ones.java">Java Solution</a></td>
+            <td><a href="Find_Max_Consecutive_Ones.java" title="Goto Find_Max_Consecutive_Ones.java">Java Solution</a></td>
         </tr>
         <tr>
             <td>2</td>
+            <td>Find No. with Even No. of Digits</td>
+            <td><a href="https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/" title="Goto fun-with-arrays">Leetcode</a></td>
+            <td>Beginner</td>
+            <td><a href="Find_Number_With_Even_Number_Of_Digits.java" title="Goto Find_Number_With_Even_Number_Of_Digits.java">Java Solution</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
             <td>Build Array from Permutation</td>
             <td><a href="https://leetcode.com/problems/build-array-from-permutation/" title="Goto build-array-from-permutation">Leetcode</a></td>
             <td>Easy</td>
             <td><a href="Running_Sum.java" title="Goto Build_Array_From_Permutation.java">Java Solution</a></td>
         </tr>
         <tr>
-            <td>3</td>
+            <td>4</td>
             <td>Running sum</td>
             <td><a href="https://leetcode.com/problems/running-sum-of-1d-array/" title="Goto running-sum-of-1d-array">Leetcode</a></td>
             <td>Easy</td>
             <td><a href="Running_Sum.java" title="Goto Running_Sum.java">Java Solution</a></td>
         </tr>
         <tr>
-            <td>4</td>
+            <td>5</td>
             <td>Concatenation Of Array</td>
             <td><a href="https://leetcode.com/problems/concatenation-of-array/" title="Goto concatenation-of-array">Leetcode</a></td>
             <td>Easy</td>
             <td><a href="Running_Sum.java" title="Goto Concatenation_Of_Array.java">Java Solution</a></td>
         </tr>
         <tr>
-            <td>5</td>
+            <td>6</td>
             <td>Richest Customer Wealth</td>
             <td><a href="https://leetcode.com/problems/richest-customer-wealth/" title="Goto richest-customer-wealth">Leetcode</a></td>
             <td>Easy</td>

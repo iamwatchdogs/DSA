@@ -2,7 +2,7 @@ package Array_Data_Structure.Problems;
 
 import java.util.Arrays;
 
-class Arrays_Solution_3 {
+class Easy_Solution_3 {
 
     // Time Complexity: O(n)
     // Space Complexity: O(n)
@@ -50,7 +50,7 @@ public class Concatenation_Of_Array {
         int [] test_case_1 = {1,2,1};
         int [] test_case_2 = {1,3,2,1};
 
-        Arrays_Solution_3 sol = new Arrays_Solution_3();
+        Easy_Solution_3 sol = new Easy_Solution_3();
 
         System.out.println( Arrays.toString(sol.worstCase(test_case_1)).equals("[1, 2, 1, 1, 2, 1]"));
         System.out.println( Arrays.toString(sol.bestCase_1(test_case_2)).equals("[1, 3, 2, 1, 1, 3, 2, 1]"));

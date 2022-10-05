@@ -2,7 +2,7 @@ package Array_Data_Structure.Problems;
 
 import java.util.Arrays;
 
-class Arrays_Solution_4 {
+class Easy_Solution_4 {
 
     // Time complexity: O(n)    /* n = (accounts.no_of_rows * accounts.no_of_cols) elements*/
     // Space complexity: O(n)   /* T(n/2) -> O(n) */
@@ -53,7 +53,7 @@ public class Richest_Customer_Wealth {
         int [][] test_case_2 = { {1,5}, {7,3}, {3,5} };
         int [][] test_case_3 = { {2,8,7}, {7,1,3}, {1,9,5} };
 
-        Arrays_Solution_4 sol = new Arrays_Solution_4();
+        Easy_Solution_4 sol = new Easy_Solution_4();
 
         System.out.println( sol.worstCase(test_case_1) == 6 );
         System.out.println( sol.bestCase(test_case_2) == 10 );

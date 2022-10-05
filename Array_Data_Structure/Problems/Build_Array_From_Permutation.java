@@ -2,7 +2,7 @@ package Array_Data_Structure.Problems;
 
 import java.util.Arrays;
 
-class Arrays_Solution_1 {
+class Easy_Solution_1 {
 
     // Time complexity: O(n)
     // Space complexity: O(n)
@@ -21,7 +21,7 @@ public class Build_Array_From_Permutation {
         int [] test_case_1 = {0,2,1,5,3,4};
         int [] test_case_2 = {5,0,1,2,3,4};
 
-        Arrays_Solution_1 sol = new Arrays_Solution_1();
+        Easy_Solution_1 sol = new Easy_Solution_1();
 
         System.out.println(Arrays.toString(sol.buildArray(test_case_1)).equals("[0, 1, 2, 4, 5, 3]"));
         System.out.println(Arrays.toString(sol.buildArray(test_case_2)).equals("[4, 5, 0, 1, 2, 3]"));

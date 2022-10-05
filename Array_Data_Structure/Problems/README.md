@@ -13,13 +13,20 @@ The following question are solved in here, Try it for your self before checking 
         </tr>
         <tr>
             <td>1</td>
+            <td>Build Array from Permutation</td>
+            <td><a href="https://leetcode.com/problems/build-array-from-permutation/" title="build-array-from-permutation">Leetcode</a></td>
+            <td>Easy</td>
+            <td><a href="Running_Sum.java" title="Goto Build_Array_From_Permutation.java">Java Solution</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
             <td>Running sum</td>
             <td><a href="https://leetcode.com/problems/running-sum-of-1d-array/" title="Goto running-sum-of-1d-array">Leetcode</a></td>
             <td>Easy</td>
             <td><a href="Running_Sum.java" title="Goto Running_Sum.java">Java Solution</a></td>
         </tr>
         <tr>
-            <td>2</td>
+            <td>3</td>
             <td>Concatenation Of Array</td>
             <td><a href="https://leetcode.com/problems/concatenation-of-array/" title="Goto concatenation-of-array">Leetcode</a></td>
             <td>Easy</td>

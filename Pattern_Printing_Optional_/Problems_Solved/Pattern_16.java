@@ -3,7 +3,7 @@ package Pattern_Printing_Optional_.Problems_Solved;
 public class Pattern_16 {
 
     public static void main(String[] args) {
-        int n = 7;
+        int n = 5;
         print_Pattern(n);
     }
 
@@ -15,9 +15,9 @@ public class Pattern_16 {
                 System.out.print("  ");
             }
 
-            for (int j = 0, value; j <= i ; j++) {
+            for (int j = 0, value = 1; j <= i ; j++) {
 
-                value = sumOfNNaturalNumbers( (j <= i/2) ? j+1 : i-j+1 );
+                value = ( i == 0 || j == 0 ) ? 1 : (value*(i-j+1))/j;
 
                 System.out.print( value + "   ");
 
@@ -26,10 +26,6 @@ public class Pattern_16 {
             System.out.println();
         }
 
-    }
-
-    public static int sumOfNNaturalNumbers( int n ) {
-        return n*(n+1)/2;
     }
 
 }
